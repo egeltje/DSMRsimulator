@@ -1,10 +1,8 @@
 /* 
  * telegram.cpp
  * Contains a sample telegram, taken from the example in the
- *   P1 Companion Standard of the Dutch SMR5 Smart Meter standards
- *   (https://www.netbeheernederland.nl/dossiers/slimme-meter-15/documenten)
+ *   P1 Companion Standard
  */
-#include <Arduino.h>
 
 const static char telegram50[][96] PROGMEM = {
 "/ISk5\\2MT382-1000\r\n",
